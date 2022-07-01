@@ -4,7 +4,8 @@ import numpy as np
 import mysql.connector as ms
 import os
 
-conn = ms.connect(user="root", password=os.environ.get("SQLPASSWORD", " "), database = "vscode01")
+conn = ms.connect(host="k8ikuh3kl5mx.ap-south-2.psdb.cloud", user="tzllu164x99t",
+                  password="pscale_pw_4PwmfgI5lZb-VJIpfnxTtlo1_v7zRJQKwzld83ypc3g", database="kau")
 
 def clean(b):
     for row in range(len(b)):

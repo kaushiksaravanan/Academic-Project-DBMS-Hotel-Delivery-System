@@ -9,8 +9,8 @@ from admin import adminPage
 client = MongoClient(   "mongodb+srv://admin:admin@cluster0.max1z.mongodb.net/?retryWrites=true&w=majority")
 db = client['Dbms']
 
-conn = ms.connect(host="localhost", user="root",
-                  password=os.environ.get("SQLPASSWORD", " "), database="vscode01")
+conn = ms.connect(host="k8ikuh3kl5mx.ap-south-2.psdb.cloud", user="tzllu164x99t",
+                  password="pscale_pw_4PwmfgI5lZb-VJIpfnxTtlo1_v7zRJQKwzld83ypc3g", database="kau")
 cur = conn.cursor()
 
 username = None
